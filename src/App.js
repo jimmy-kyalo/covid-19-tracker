@@ -106,7 +106,7 @@ function App() {
           <InfoBox
             active={casesType === "recovered"}
             onClick={(e) => setCasesType("recovered")}
-            title="Recovered"
+            title="Recovered Today"
             cases={prettyPrintStat(countryInfo.todayRecovered)}
             total={prettyPrintStat(countryInfo.recovered)}
           />
@@ -115,7 +115,7 @@ function App() {
             isRed
             active={casesType === "deaths"}
             onClick={(e) => setCasesType("deaths")}
-            title="Deaths"
+            title="Deaths Today"
             cases={prettyPrintStat(countryInfo.todayDeaths)}
             total={prettyPrintStat(countryInfo.deaths)}
           />
@@ -135,7 +135,7 @@ function App() {
           <h4>Live cases</h4>
           <Table countries={tableData} />
           {/* graph */}
-          <h4>Worldwide new {casesType}</h4>
+          <h4 style={{'text-transform':'capitalize'}}>{casesType}</h4>
           <LineGraph casesType={casesType} />
         </CardContent>
         <div className="instagram-link">
