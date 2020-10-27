@@ -1,8 +1,16 @@
+This React app tracks corona virus (covid-19) stats worldwide using data from [disease.sh](https://disease.sh/) - An open API for disease-related statistics
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all dependencies listed in the `package.json` file.
+
 
 ### `npm start`
 
