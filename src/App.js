@@ -135,7 +135,7 @@ function App() {
           <h4>Live cases</h4>
           <Table countries={tableData} />
           {/* graph */}
-          <h4 style={{'text-transform':'capitalize'}}>{casesType}</h4>
+          <h4 style={{textTransform:'capitalize'}}>{casesType}</h4>
           <LineGraph casesType={casesType} />
         </CardContent>
         <div className="instagram-link">
