@@ -42,15 +42,16 @@ h4 {
   text-align: center;
 }
 
-.instagram-link {
+/* .instagram-link {
   display: flex;
   margin-top: 15px;
   justify-content: center;
-}
+} */
 .facebook-link {
   display: flex;
-  margin-top: 30px;
+  /* margin-top: 10px; */
   justify-content: center;
+  margin-bottom: 20px;
 }
 .link {
   margin-top: 4px;

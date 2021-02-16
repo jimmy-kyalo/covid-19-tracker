@@ -13,7 +13,7 @@ import { sortData, prettyPrintStat } from "./util";
 import Table from "./Table";
 import LineGraph from "./LineGraph";
 import "leaflet/dist/leaflet.css";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 
 function App() {
@@ -135,17 +135,17 @@ function App() {
           <h4>Live cases</h4>
           <Table countries={tableData} />
           {/* graph */}
-          <h4 style={{textTransform:'capitalize'}}>{casesType}</h4>
+          <h4 style={{ textTransform: "capitalize" }}>{casesType}</h4>
           <LineGraph casesType={casesType} />
         </CardContent>
-        <div className="instagram-link">
+        {/* <div className="instagram-link">
           <div>
             <InstagramIcon></InstagramIcon>
           </div>
           <div className="link">
             <a href="https://www.instagram.com/blackclaw404/">@blackclaw404</a>
           </div>
-        </div>
+        </div> */}
         <div className="facebook-link">
           <div>
             <FacebookIcon></FacebookIcon>
